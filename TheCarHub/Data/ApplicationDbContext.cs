@@ -12,7 +12,7 @@ namespace TheCarHub.Data
             : base(options)
         {
         }
-
+        //Creation of the tables in the database
         public DbSet<Car> Cars { get; set; }
         public DbSet<CarMake> CarMakes { get; set; }
         public DbSet<CarModel> CarModels { get; set; }
