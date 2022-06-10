@@ -1,7 +1,8 @@
 @using Microsoft.AspNetCore.Identity
+@using TheCarHub.Areas.Identity.Data
 
-@inject SignInManager<IdentityUser> SignInManager
-@inject UserManager<IdentityUser> UserManager
+@inject SignInManager<TheCarHubUser> SignInManager
+@inject UserManager<TheCarHubUser> UserManager
 
 @if (SignInManager.IsSignedIn(User))
 {
